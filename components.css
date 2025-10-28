@@ -990,6 +990,32 @@
 }
 
 /* ========================================
+   CONTACTO - LOGO
+   ======================================== */
+
+.contact-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: var(--spacing-lg);
+  width: 100%;
+}
+
+.contact-logo img {
+  height: auto;
+  width: 100px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+  .contact-logo img {
+    width: 80px;
+  }
+}
+
+/* ========================================
    FOOTER MÓVIL
    ======================================== */
 
