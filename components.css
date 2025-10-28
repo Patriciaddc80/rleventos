@@ -1000,6 +1000,19 @@
   margin-top: var(--spacing-xl);
 }
 
+.mobile-footer .footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: var(--spacing-md);
+}
+
+.mobile-footer .footer-logo img {
+  height: auto;
+  width: 80px;
+  object-fit: contain;
+}
+
 .mobile-footer .footer-content {
   display: flex;
   flex-wrap: wrap;
@@ -1056,6 +1069,10 @@
 @media (max-width: 480px) {
   .mobile-footer {
     padding: var(--spacing-lg) var(--spacing-sm);
+  }
+
+  .mobile-footer .footer-logo img {
+    width: 60px;
   }
 
   .mobile-footer .footer-content {
